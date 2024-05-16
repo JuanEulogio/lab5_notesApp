@@ -113,7 +113,6 @@ public class NoteWriting extends AppCompatActivity {
                 getSharedPreferences ("com.cs407.lab5_milestone", Context.MODE_PRIVATE);
 
 
-        //TODO: what does step 3 mean "newContent"? put in my editText current text?
 
         // 3. Get the content of the notes using getText()
         String title = "NOTES_"+ (noteId+1);
